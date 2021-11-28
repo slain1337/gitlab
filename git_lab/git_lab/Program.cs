@@ -14,9 +14,9 @@ namespace git_lab
             Console.WriteLine("Введите B");
             b = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Выберите действие +, -, /, *");
-            if (c=="+")
+            if (c=="-")
             {
-                Console.WriteLine(a + b);
+                Console.WriteLine(a - b);
             }
         }
     }
