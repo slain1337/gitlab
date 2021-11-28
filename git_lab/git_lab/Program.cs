@@ -6,7 +6,12 @@ namespace git_lab
     {
         static void Main(string[] args)
         {
-           
+            int a;
+            int b;
+            Console.WriteLine("Введите A");
+            a = Int32.Parse(Console.ReadLine());
+            Console.WriteLine("Введите B");
+            b = Int32.Parse(Console.ReadLine());
         }
     }
 }
