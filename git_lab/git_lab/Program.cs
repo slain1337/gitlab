@@ -26,6 +26,11 @@ namespace git_lab
             {
                 Console.WriteLine(a - b);
             }
+
+                if (c == "+")
+            {
+                Console.WriteLine(a + b);
+            }
         }
     }
 }
